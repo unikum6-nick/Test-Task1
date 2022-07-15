@@ -37,6 +37,7 @@ nav, footer, header, aside {
     background-size: cover;
     background-position: top;
     width: 100%;
+    margin-top: 46px;
 
 }
 .wrapper {
@@ -55,6 +56,10 @@ nav, footer, header, aside {
     box-shadow: 0px 4px 4px rgb(13 96 111 / 100%);
     padding: 5px 15px;
     background-color: bisque;
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0;
 }
 .headerContent{
     display: flex;    
@@ -305,6 +310,7 @@ ul li {
     background-color: bisque;
     min-height: 45px;
     align-items: center;
+    box-shadow: 0px 4px 4px rgb(13 96 111);
 }
 .footerImg{
     width: 25px;
